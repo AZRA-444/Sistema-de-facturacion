@@ -11,6 +11,7 @@ KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV0
 
 @app.route('/api/guardar_factura', methods=['POST'])
 def guardar_factura():
+
     try:
         factura_data = request.json
         
